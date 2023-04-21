@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, p{
+    position: absolute;
+    color: white;
+}
+
+p {
+    bottom: 350px;
+}
+
+canvas {
+    background-color: black;
+}
